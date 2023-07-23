@@ -1,0 +1,28 @@
+{
+  "name": "vue-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "build": "webpack serve --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6"
+  }
+}

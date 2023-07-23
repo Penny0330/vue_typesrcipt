@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "strict": true,
+      "esModuleInterop": true,
+      // 當錯誤出現，會停止編譯結果產生
+      // "noEmitOnError": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+    }
+}
+  
